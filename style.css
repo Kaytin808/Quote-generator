@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 html, body {
     height: 100%;
@@ -34,4 +35,19 @@ img {
     justify-content: center;
     margin-top: 30em;
     margin-right: 50px;
+    height: 100px;
+}
+.author {
+    text-align: end;
+    margin-right: 45px;
+    padding: 15px;
+}
+.quote-container {
+    font-style: italic;
+    font-size: 22px;
+}
+.btn-container {
+    position: absolute;
+    right: 59em;
+    top: 47em;
 }
