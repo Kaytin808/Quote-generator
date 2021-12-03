@@ -5,15 +5,33 @@
 html, body {
     height: 100%;
 }
-
-.btn-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .container {
     height: 100%;
+}
+.anime-quote {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+img {
+    right: 55em;
+    position: absolute;
+    height: 350px;
+}
+@font-face {
+    font-family: rickmorty;
+    src: url(/fonts/rickandmorty.ttf);
+}
+.title {
+    font-family: rickmorty;
+    color: #41B3C9;
+    font-size: 45px;
+}
+.quote-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30em;
+    margin-right: 50px;
 }
