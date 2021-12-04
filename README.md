@@ -8,4 +8,4 @@ In this project I have learned to:
 - Learned to implement the function into a button onclick
 - Adding multiple objects in an array
 
-![Rick and Morty](http://assets.stickpng.com/images/58f37731a4fa116215a92411.png)
+![Rick and Morty](https://www.pikpng.com/pngl/m/27-275947_rick-and-morty-title-png-clipart-free-rick.png)
