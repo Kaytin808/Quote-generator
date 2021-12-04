@@ -1,4 +1,4 @@
-# \*\* Quote Generator from Rick And Morty
+# Quote Generator from Rick And Morty
 
 Simple project learning to randomize array of Objects on the click of a button.
 
