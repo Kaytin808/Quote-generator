@@ -10,6 +10,10 @@
             author:"— Rick"
         },
         {
+            quote: "Wubba Lubba dub dub!",
+            author: "— Rick"
+        },
+        {
             quote: "Sometimes science is more art than science.",
             author:"— Rick"
         },
