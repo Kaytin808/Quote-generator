@@ -11,7 +11,8 @@
         },
         {
             quote: "Wubba Lubba dub dub!",
-            author: "— Rick"
+            author: "— Rick",
+            id: "Wubba"
         },
         {
             quote: "Sometimes science is more art than science.",
@@ -47,7 +48,8 @@
         },
         {
             quote: "Boom! Big reveal! I turned myself into a pickle!",
-            author: "— Rick"
+            author: "— Rick",
+            id: "Pickle"
         },
         {
             quote: "If I let you make me nervous, then we can’t get schwifty.",
@@ -73,12 +75,30 @@ var rando = function () {
     thing =words[Math.floor(Math.random()* words.length)]
     var pQuote = document.querySelector('.quote')
     var pAuthor = document.querySelector('.author')
-    var container = document.querySelector('.container')
-
+    var containerImg = document.querySelector('.container-img')
+    var img = document.createElement('img')
     pAuthor.classList.add('author')
     pAuthor.innerHTML = thing['author']
     pQuote.innerHTML = thing['quote']
-    
+    var containerImg = document.querySelector('.container-img')
+    var img = document.getElementById('myImg')
+    if (thing['id'] == "Wubba" && thing['author'] == "— Rick") {
+            img.src = 'http://68.media.tumblr.com/dfe8acf02763a30e76c50be1241c9306/tumblr_owpeei8Awk1uaqtxco1_540.gif'
+    } else if (thing['id'] == "Pickle" && thing['author'] == "— Rick") {
+        img.src = 'https://media2.giphy.com/media/JmPenP1svctdfDCEHi/giphy.gif'
+    } else if (thing['author'] == "— Summer") {
+        img.src = 'https://static.miraheze.org/animatedmusclewomenwiki/thumb/3/3f/Rick-and-morty-png-summer-1.png/120px-Rick-and-morty-png-summer-1.png'
+    } else if (thing['author'] == "— Mr. Meeseeks") {
+        img.src = 'https://upload.wikimedia.org/wikipedia/en/1/1d/Mr._Meeseeks.png'
+    } else if (thing['author'] == "— Beth") {
+        img.src = 'https://upload.wikimedia.org/wikipedia/en/5/58/Beth_Smith.png'
+    } else if (thing['author'] == "— Morty") {
+        img.src = 'https://upload.wikimedia.org/wikipedia/en/c/c3/Morty_Smith.png'
+    } else if (thing['author'] == "— Jerry") {
+        img.src = 'https://media3.giphy.com/media/lOrfnPFFK8uKH1X88S/giphy.gif'
+    } else if (thing['author'] == "— Rick") {
+        img.src = 'http://assets.stickpng.com/images/58f37709a4fa116215a9240d.png'
+    }
 }
 
 button.addEventListener('click', rando);
