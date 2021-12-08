@@ -83,21 +83,21 @@ var rando = function () {
     var containerImg = document.querySelector('.container-img')
     var img = document.getElementById('myImg')
     if (thing['id'] == "Wubba" && thing['author'] == "— Rick") {
-            img.src = 'http://68.media.tumblr.com/dfe8acf02763a30e76c50be1241c9306/tumblr_owpeei8Awk1uaqtxco1_540.gif'
+            img.src = '/imgs/wubba.gif'
     } else if (thing['id'] == "Pickle" && thing['author'] == "— Rick") {
-        img.src = 'https://media2.giphy.com/media/JmPenP1svctdfDCEHi/giphy.gif'
+        img.src = '/imgs/picklerick.gif'
     } else if (thing['author'] == "— Summer") {
-        img.src = 'https://static.miraheze.org/animatedmusclewomenwiki/thumb/3/3f/Rick-and-morty-png-summer-1.png/120px-Rick-and-morty-png-summer-1.png'
+        img.src = '/imgs/summer.png'
     } else if (thing['author'] == "— Mr. Meeseeks") {
-        img.src = 'https://upload.wikimedia.org/wikipedia/en/1/1d/Mr._Meeseeks.png'
+        img.src = '/imgs/meeseeks.png'
     } else if (thing['author'] == "— Beth") {
-        img.src = 'https://upload.wikimedia.org/wikipedia/en/5/58/Beth_Smith.png'
+        img.src = '/imgs/Beth_Smith.png'
     } else if (thing['author'] == "— Morty") {
-        img.src = 'https://upload.wikimedia.org/wikipedia/en/c/c3/Morty_Smith.png'
+        img.src = '/imgs/Morty_Smith.png'
     } else if (thing['author'] == "— Jerry") {
-        img.src = 'https://media3.giphy.com/media/lOrfnPFFK8uKH1X88S/giphy.gif'
+        img.src = '/imgs/jerry.gif'
     } else if (thing['author'] == "— Rick") {
-        img.src = 'http://assets.stickpng.com/images/58f37709a4fa116215a9240d.png'
+        img.src = '/imgs/rick.png'
     }
 }
 
